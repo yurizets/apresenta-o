@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Talentos - New Era Engenharia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="Logo da NEW ERA ENGENHARIA.png" alt="Logo New Era">
+        <nav>
+            <a href="painel.html">Início</a>
+            <a href="vagas.html">Banco de Talentos</a>
+            <a href="loja.html">Loja Parceira</a>
+            <a href="cursos.html">Cursos EAD</a>
+            <a href="newera.html">Simulador de Obra & Grafeno</a>
+            <a href="entrar.html">Sair</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <section class="caixa">
+            <h1>Banco de Talentos - Trabalhe Conosco</h1>
+            <p>Confira nossas vagas internas abertas para obras e escritórios:</p>
+
+            <div class="vaga-item"><strong>Engenheiro(a) Chefe de Obra</strong> — Regime CLT | Experiência em grandes estruturas</div>
+            <div class="vaga-item"><strong>Arquiteto(a) Urbanista</strong> — Regime CLT | Projetos sustentáveis e BIM</div>
+            <div class="vaga-item"><strong>Eletricista Predial e Industrial</strong> — Regime CLT | Certificação NR-10</div>
+            <div class="vaga-item"><strong>Mestre de Obras / Construtor</strong> — Regime CLT | Gestão de equipe em canteiro</div>
+            <div class="vaga-item"><strong>Ajudante Geral de Obras</strong> — Regime CLT | Não exige experiência prévia</div>
+            <div class="vaga-item"><strong>Estagiário(a) de Engenharia Civil</strong> — Bolsa Auxílio | Cursando a partir do 5º semestre</div>
+        </section>
+
+        <!-- Formulário de Candidatura -->
+        <section class="caixa">
+            <h2>Candidatar-se a uma Vaga</h2>
+            <form action="#" onsubmit="alert('Candidatura enviada com sucesso para o RH da New Era!'); return false;">
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" placeholder="Digite seu nome" required>
+
+                <label for="email">E-mail para Contato</label>
+                <input type="email" id="email" placeholder="seuemail@exemplo.com" required>
+
+                <label for="cargo">Cargo Pretendido</label>
+                <select id="cargo" required>
+                    <option value="">Selecione um cargo...</option>
+                    <option>Engenheiro(a) Chefe</option>
+                    <option>Arquiteto(a)</option>
+                    <option>Eletricista</option>
+                    <option>Construtor / Mestre de Obras</option>
+                    <option>Ajudante de Obras</option>
+                    <option>Estagiário(a)</option>
+                </select>
+
+                <label for="curriculo">Anexar Currículo (PDF)</label>
+                <input type="file" id="curriculo" accept=".pdf">
+
+                <button type="submit">Enviar Candidatura</button>
+            </form>
+        </section>
+    </div>
+
+</body>
+</html>

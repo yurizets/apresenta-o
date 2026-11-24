@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loja Parceira - New Era Engenharia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <img src="Logo da NEW ERA ENGENHARIA.png" alt="Logo New Era">
+        <nav>
+            <a href="painel.html">Início</a>
+            <a href="vagas.html">Banco de Talentos</a>
+            <a href="loja.html">Loja Parceira</a>
+            <a href="cursos.html">Cursos EAD</a>
+            <a href="newera.html">Simulador de Obra & Grafeno</a>
+            <a href="entrar.html">Sair</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1 style="color: var(--navy);">Comércio Facilitado — Parceiros Homologados</h1>
+        <p>Materiais de construção e engenharia com condições exclusivas para colaboradores e parceiros New Era.</p>
+
+        <!-- Área de Cupom -->
+        <div class="banner-cupom">
+            <div>
+                <strong>Tem um cupom de parceiro?</strong> Use o código <code>NEWERA10</code> para ganhar 10% de desconto.
+            </div>
+            <div>
+                <input type="text" id="cupom" placeholder="Digite o cupom">
+                <button type="button" style="width: auto;" onclick="alert('Cupom aplicado! Desconto ativado no carrinho.')">Aplicar</button>
+            </div>
+        </div>
+
+        <!-- Lista de Produtos -->
+        <div class="grade">
+            <div class="produto">
+                <span class="selo">Parceiro Homologado</span>
+                <h3>Cimento Estrutural CP-V (50kg)</h3>
+                <p>Alta resistência inicial para obras de grande porte.</p>
+                <div class="preco">R$ 34,90</div>
+                <button onclick="alert('Produto adicionado ao pedido!')">Comprar Material</button>
+            </div>
+
+            <div class="produto">
+                <span class="selo">Parceiro Homologado</span>
+                <h3>Kit EPI Completo Engenharia</h3>
+                <p>Capacete, óculos de proteção, luvas e botina certificada.</p>
+                <div class="preco">R$ 189,00</div>
+                <button onclick="alert('Produto adicionado ao pedido!')">Comprar Material</button>
+            </div>
+
+            <div class="produto">
+                <span class="selo">Parceiro Homologado</span>
+                <h3>Trena a Laser Digital 50m</h3>
+                <p>Medição rápida e precisa para vistorias e projetos.</p>
+                <div class="preco">R$ 245,00</div>
+                <button onclick="alert('Produto adicionado ao pedido!')">Comprar Material</button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
